@@ -1,0 +1,28 @@
+#Application properties
+server:
+  port: 8080
+
+
+#AWS properties
+cloud:
+  aws:
+    region:
+      static: ap-south-1
+    stack:
+      auto: false
+    credentials:
+      accessKey: AKIA27KKWSIARZYY2JPV
+      secretKey: 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
+
+application:
+  bucket:
+    name: bucketawsp
+
+logging:
+  level:
+    com:
+      amazonaws:
+        util:
+          EC2MetadataUtils: error
+
+
