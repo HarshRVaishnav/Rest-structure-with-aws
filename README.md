@@ -1,11 +1,11 @@
 Rest-Api Structure Development
 
-##Simple Rest-api application with SpringBoot + Docker
+## Simple Rest-api application with SpringBoot + Docker
 
 Prerequisites to run application
 java 11, database: mysql,psql or Docker
 
-###Steps to run sample
+## Steps to run sample
     # Run SpringBoot application
     mvn spring-boot:run 
     
